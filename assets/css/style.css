@@ -52,3 +52,10 @@ body {
     width: 100%;
     background: url("../images/hero-image-index.jpg") no-repeat center center;
     background-size: cover;
+}
+
+/* Services section */
+#office-services {
+	margin: 15px;
+
+}
