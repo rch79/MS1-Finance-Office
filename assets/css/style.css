@@ -14,14 +14,24 @@ body {
 
 /* header */
 #logo {
+	background: url("../images/logo.png") no-repeat center center;
+	height: 75px;
+	width: 75px;
 	float: left;
-	font-size: 2.5rem;
-	margin-left: 30px;
-	font-weight: 600;
+	background-size: cover;
 }
 
-#logo a {
+#university-name {
+	float: left;
+	font-size: 2.5rem;
+	margin-left: 2px;
+	font-weight: 600;
+
+}
+
+#university-name a {
 	text-decoration: none;
+	color: #427a9d;
 }
 
 #menu {
@@ -34,7 +44,7 @@ body {
 	margin: 5px;
 }
 
-#menu, #logo {
+#menu, #logo, #university-name {
 	line-height:  75px;
 }
 
