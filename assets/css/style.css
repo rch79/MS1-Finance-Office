@@ -34,6 +34,13 @@ body {
 	color: #427a9d;
 }
 
+header h2 {
+	position: absolute;
+	top: 50px;
+	left: 80px;
+	color: #427a9d;
+}
+
 #menu {
 	list-style-type: none;
 	margin-right: 30px;
