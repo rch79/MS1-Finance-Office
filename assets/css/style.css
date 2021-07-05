@@ -76,3 +76,22 @@ header h2 {
 	margin: 15px;
 
 }
+
+#our-services {
+	text-align: center;
+	font-size: 200%;
+	margin: 20px 0;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+#services-table {
+	margin: 0 auto;
+	font-size:  150%;
+	border-spacing:175px 35px;
+}
+
+#services-table td {
+	text-align: center;
+}
