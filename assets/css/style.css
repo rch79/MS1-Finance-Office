@@ -95,3 +95,41 @@ header h2 {
 #services-table td {
 	text-align: center;
 }
+
+/* Footer */
+footer {
+	clear: both;
+	background-color: #004099;
+	color:  white;
+	height: 90px;
+}
+
+#footer-address {
+	font-size: 0.85rem;
+	float:  left;
+	padding-top:  20px;
+	margin-left:  15px;
+	vertical-align: middle;
+	width:  50%;
+}
+
+#footer-social {
+	clear: right;
+	text-align: center;
+	padding-top: 25px;
+}
+#footer-social ul {
+	list-style-type: none;
+	position:  relative;
+	left: -75px;
+}
+
+#footer-social li {
+	float:  left;
+	padding:  10px;
+}
+
+#footer-social a {
+	color:  white;
+	font-size: 1.2rem;
+}
