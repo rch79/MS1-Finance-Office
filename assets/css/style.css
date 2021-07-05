@@ -96,6 +96,28 @@ header h2 {
 	text-align: center;
 }
 
+/* Staff */
+#team {
+	clear: both;
+}
+
+#team div {
+	width: 50%;
+	height: 20%;
+}
+
+.photo img {
+	object-fit: cover;
+	width: 50%;
+	height: 20%;
+}
+.photo {
+	float: left;
+}
+.information {
+	float: right;
+}
+
 /* Footer */
 footer {
 	clear: both;
