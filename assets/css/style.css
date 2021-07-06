@@ -74,9 +74,9 @@ header h2 {
 /* Services section */
 #office-services {
 	margin: 15px;
-
 }
 
+}
 #our-services {
 	text-align: center;
 	font-size: 200%;
@@ -97,25 +97,34 @@ header h2 {
 }
 
 /* Staff */
-#team {
+
+.wrapper {
 	clear: both;
+	border: 5px solid #427a9d;
+	width: 50%;
+	overflow: hidden;
+	box-sizing: border-box;
+	height: 320px;
+	float: left;
 }
 
-#team div {
-	width: 50%;
-	height: 20%;
+.photo  {
+	float: left;
+	width: 320px;
+}
+
+.information {
+	position: relative;
+	top:  30%;
+	height: 320px;
+	text-align: center;
+	vertical-align: middle;
 }
 
 .photo img {
-	object-fit: cover;
-	width: 50%;
-	height: 20%;
-}
-.photo {
-	float: left;
-}
-.information {
-	float: right;
+	max-width: 320px;
+	max-height: 100%;
+	vertical-align: middle;
 }
 
 /* Footer */
