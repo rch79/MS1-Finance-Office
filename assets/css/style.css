@@ -72,11 +72,7 @@ header h2 {
 }
 
 /* Services section */
-#office-services {
-	margin: 15px;
-}
 
-}
 #our-services {
 	text-align: center;
 	font-size: 200%;
@@ -84,6 +80,10 @@ header h2 {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-weight: bold;
+}
+
+#office-services {
+	margin: 15px;
 }
 
 #services-table {
@@ -108,21 +108,31 @@ header h2 {
 	float: left;
 }
 
-.photo  {
+.photo {
 	float: left;
 	width: 320px;
 }
 
 .information {
-	position: relative;
+	height: 100%;
+}
+.contact-info {
+	position:  relative;
 	top:  30%;
-	height: 320px;
 	text-align: center;
-	vertical-align: middle;
+}
+
+.name {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.email-address {
+	font-style: italic;
 }
 
 .photo img {
-	max-width: 320px;
+	width:  100%;
 	max-height: 100%;
 	vertical-align: middle;
 }
