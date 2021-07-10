@@ -98,30 +98,51 @@ header h2 {
 
 /* Staff */
 
-.wrapper {
+#main-section {
+	background: url("../images/staff-background.png") center center;
+	background-attachment: fixed;
 	clear: both;
-	border: 5px solid #427a9d;
-	width: 50%;
-	overflow: hidden;
-	box-sizing: border-box;
-	height: 320px;
-	float: left;
+	width:  100%;
+	overflow-x: hidden;
 }
 
-.photo {
-	float: left;
+#grid-container {
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-top: 4rem;
+	padding-bottom:  4rem;
+	width: 100%;
+	display:  grid;
+	grid-template-columns: 40% 40%;
+	grid-template-rows:  auto auto auto;
+	grid-column-gap:  .4rem;
+	grid-row-gap: 10rem;
+	clear: both;
+	
+}
+
+.container-item {
+	border: 12px solid whitesmoke;
+	width: 320px;
+}
+
+.container-item img {
+	height: 320px;
+	border-bottom: 0px;
+	width: auto;
+	object-fit: cover;
+}
+
+.container-item img, .information {
 	width: 320px;
 }
 
 .information {
-	height: 100%;
+	text-align:  center;
+	background-color:  white;
+	border-top: 0px;
+	color: black;
 }
-.contact-info {
-	position:  relative;
-	top:  30%;
-	text-align: center;
-}
-
 .name {
 	font-weight: bold;
 	text-transform: uppercase;
@@ -129,12 +150,6 @@ header h2 {
 
 .email-address {
 	font-style: italic;
-}
-
-.photo img {
-	width:  100%;
-	max-height: 100%;
-	vertical-align: middle;
 }
 
 /* Footer */
