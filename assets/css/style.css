@@ -12,7 +12,7 @@ body {
 	color: #004099;
 }
 
-/* header */
+/*--------------------------------------------------------Header-------------*/
 #logo {
 	background: url("../images/logo.png") no-repeat center center;
 	height: 75px;
@@ -23,7 +23,7 @@ body {
 
 #university-name {
 	float: left;
-	font-size: 2.5rem;
+	font-size: 1.5rem;
 	margin-left: 2px;
 	font-weight: 600;
 
@@ -55,7 +55,7 @@ header h2 {
 	line-height:  75px;
 }
 
-/* Hero image */
+/*--------------------------------------------------------Hero Image-------------*/
 #hero-outer {
     height: 600px;
     width: 100%;
@@ -71,7 +71,7 @@ header h2 {
     background-size: cover;
 }
 
-/* Services section */
+/*--------------------------------------------------------Services Section-------------*/
 
 #our-services {
 	text-align: center;
@@ -83,11 +83,11 @@ header h2 {
 }
 
 #office-services {
-	margin: 15px;
+	margin: auto;
 }
 
 #services-table {
-	margin: 0 auto;
+	margin: auto;
 	font-size:  150%;
 	border-spacing:175px 35px;
 }
@@ -96,27 +96,26 @@ header h2 {
 	text-align: center;
 }
 
-/* Staff */
+/*--------------------------------------------------------Staff Page-------------*/
 
 #main-section {
-	background: url("../images/staff-background.png") center center;
+	background: url("../images/staff-background.png") repeat center center;
 	background-attachment: fixed;
 	clear: both;
 	width:  100%;
-	overflow-x: hidden;
+	/*overflow-x: hidden;*/
 }
 
 #grid-container {
-	margin-left: 20%;
-	margin-right: 20%;
+	margin:  auto;
 	padding-top: 4rem;
 	padding-bottom:  4rem;
 	width: 100%;
 	display:  grid;
-	grid-template-columns: 40% 40%;
-	grid-template-rows:  auto auto auto;
-	grid-column-gap:  .4rem;
-	grid-row-gap: 10rem;
+	grid-template-columns: auto;
+	grid-template-rows:  auto;
+	grid-column-gap: .4rem;
+	grid-row-gap: 6rem;
 	clear: both;
 	
 }
@@ -124,35 +123,48 @@ header h2 {
 .container-item {
 	border: 12px solid whitesmoke;
 	width: 320px;
+	margin: auto;
 }
 
 .container-item img {
+
 	height: 320px;
 	border-bottom: 0px;
-	width: auto;
 	object-fit: cover;
 }
 
 .container-item img, .information {
 	width: 320px;
+	height: auto;
 }
 
 .information {
 	text-align:  center;
-	background-color:  white;
-	border-top: 0px;
+	background-color: white;
+	/*border-top: 0px;*/
 	color: black;
 }
 .name {
 	font-weight: bold;
-	text-transform: uppercase;
 }
 
 .email-address {
 	font-style: italic;
 }
 
-/* Footer */
+@media (min-width: 670px) {
+    #grid-container {
+        grid-template-columns: 50% 50%;
+    }
+
+@media (min-width: 900px) {
+    #grid-container {
+        grid-template-columns: 50% 50%;
+        grid-column-gap: 0px;
+        grid-row-gap: 10rem;
+    }
+
+/*--------------------------------------------------------Footer-------------*/
 footer {
 	clear: both;
 	background-color: #004099;
@@ -189,3 +201,28 @@ footer {
 	color:  white;
 	font-size: 1.2rem;
 }
+/*--------------------------------------------------------Media Queries-------------*/
+
+@media (min-width: 670px) {
+    #grid-container {
+        grid-template-columns: 50% 50%;
+    }
+
+@media (min-width: 900px) {
+	
+	/*Header*/
+	#university-name {
+		float: left;
+		font-size: 2.5rem;
+		margin-left: 2px;
+		font-weight: 600;
+	}
+
+	/*Staff*/
+    #grid-container {
+    	    grid-template-columns: 50% 50%;
+        grid-column-gap: 0px;
+        grid-row-gap: 10rem;
+    }
+
+
