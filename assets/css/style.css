@@ -22,7 +22,7 @@ body {
 }
 
 #university-name {
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	margin-left: 2px;
 	font-weight: 600;
 
@@ -47,9 +47,18 @@ header h2 {
 	/*margin-right: 30px;*/
 }
 
+#outer-menu-wrapper {
+	width: 100%;
+}
+
+#inner-menu-wrapper {
+	margin: 0 auto;
+	width: 60%;
+}
+
 #menu li {
-	float: left;
-	margin: 8px;
+	float: right;
+	padding: 5px;
 }
 
 #menu, #logo, #university-name {
@@ -88,9 +97,9 @@ header h2 {
 }
 
 #services-table {
+	max-width: 320px;
 	margin: auto;
 	font-size:  150%;
-	border-spacing:175px 35px;
 }
 
 #services-table td {
@@ -152,6 +161,10 @@ header h2 {
 	font-style: italic;
 }
 
+/*--------------------------------------------------------Contact Us-------------*/
+#contact-us {
+	clear: both;
+}
 
 /*--------------------------------------------------------Footer-------------*/
 footer {
@@ -200,9 +213,25 @@ footer {
 	font-size: 1rem;
 }
 /*--------------------------------------------------------Media Queries-------------*/
+/*------------------------------Min-Width:  320px----------*/
+@media (min-width: 325px) {
+	/*Header*/
+	#university-name {
+		font-size: 1.5rem;
+	}
 
+}
 /*------------------------------Min-Width:  380px----------*/
 @media (min-width: 380px) {
+
+	#inner-menu-wrapper {
+		width: 90%;
+	}
+
+	#menu li {
+		padding: 8px;
+	}
+
 	/*Footer*/
 	.footer-social {
 		text-align: right;
@@ -229,6 +258,16 @@ footer {
 		font-size: 1rem;
 	}
 
+	/*Services*/
+	#services-table {
+		border-spacing:75px 35px;
+	}
+
+	#services-table td {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
 	/*Footer*/
     .footer-address {
 		font-size: 0.85rem;
@@ -248,12 +287,19 @@ footer {
 
 /*------------------------------Min-Width:  710px----------*/
 @media (min-width: 710px) {
-	/*Staff*/
+
+*/
+/*----------------------Services*/
+	#services-table {
+		border-spacing:100px 35px;
+	}
+
+/*----------------------Staff*/
     #grid-container {
         grid-template-columns: 50% 50%;
     }
 
-    /*Footer*/
+/*----------------------Footer*/
     .footer-address {
 		font-size: 0.85rem;
 		padding-top:  20px;
@@ -274,10 +320,21 @@ footer {
 		left: 80px;
 	}
 
-	#menu li {
+	#outer-menu-wrapper {
 		float: right;
+		width: 40%;
 	}
 
+	#inner-menu-wrapper {
+		width: 100%;
+	}
+
+	/*Services*/
+	#services-table {
+		border-spacing: 175px 35px;
+		max-width: 80%;
+	}
+	
 	/*Staff*/
     #grid-container {
     	grid-template-columns: 50% 50%;
