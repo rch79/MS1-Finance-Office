@@ -88,13 +88,17 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Lighthouse Reports
 
  - __Home page__
+
 ![Home Page](https://github.com/rch79/MS1-Finance-Office/blob/master/assets/images/readme/lighthouse-main-page.PNG)
 
 
  - __Staff page__
+
 ![Staff Page](https://github.com/rch79/MS1-Finance-Office/blob/master/assets/images/readme/lighthouse-staff-page.PNG)
 
+
  - __Contact us Page__
+
 ![Contact Us Page](https://github.com/rch79/MS1-Finance-Office/blob/master/assets/images/readme/lighthouse-contact-us.PNG)
 
 ### Unfixed Bugs
