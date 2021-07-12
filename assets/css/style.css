@@ -383,7 +383,6 @@ footer {
 /*------------------------------Min-Width:  710px----------*/
 @media (min-width: 710px) {
 
-*/
 /*----------------------Services*/
 	#services-table {
 		border-spacing:100px 35px;
@@ -447,7 +446,6 @@ footer {
         grid-column-gap: 0px;
         grid-row-gap: 10rem;
     }
-
     
 
 
