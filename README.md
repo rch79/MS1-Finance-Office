@@ -89,17 +89,17 @@ If this section grows too long, you may want to split it off into a separate fil
 
  - __Home page__
 
-![Home Page](https://github.com/rch79/MS1-Finance-Office/blob/master/assets/images/readme/lighthouse-main-page.PNG)
+<img src="https://github.com/rch79/MS1-Finance-Office/blob/master/assets/images/readme/lighthouse-main-page.PNG" width="400" height="400">
 
 
  - __Staff page__
 
-![Staff Page](https://github.com/rch79/MS1-Finance-Office/blob/master/assets/images/readme/lighthouse-staff-page.PNG)
+<img src="https://github.com/rch79/MS1-Finance-Office/blob/master/assets/images/readme/lighthouse-staff-page.PNG" width="400" height="400">
 
 
  - __Contact us Page__
 
-![Contact Us Page](https://github.com/rch79/MS1-Finance-Office/blob/master/assets/images/readme/lighthouse-contact-us.PNG)
+<img src="https://github.com/rch79/MS1-Finance-Office/blob/master/assets/images/readme/lighthouse-contact-us.PNG" width="400" height="400">
 
 ### Unfixed Bugs
 
