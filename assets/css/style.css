@@ -26,7 +26,6 @@ body {
 	color:  white;
 }
 
-
 /*--------------------------------------------------------Header-------------*/
 #logo {
 	background: url("../images/logo.png") no-repeat center center;
@@ -96,7 +95,6 @@ header h2 {
 }
 
 /*--------------------------------------------------------Services Section-------------*/
-
 #mission {
 	width: 100%;
 	text-align: center;
@@ -105,6 +103,7 @@ header h2 {
 	background-color: #004099;
 	color:  white;
 }
+
 #our-services {
 	text-align: center;
 	font-size: 200%;
@@ -129,7 +128,6 @@ header h2 {
 }
 
 /*--------------------------------------------------------Staff Page-------------*/
-
 #main-section {
 	background: url("../images/staff-background.png") repeat center center;
 	background-attachment: fixed;
@@ -224,7 +222,6 @@ form input, textarea {
 	border: 2px solid #427a9d;;
 	margin-bottom: 20px;
 	width: 60%;
-
 }
 
 textarea {
@@ -241,6 +238,7 @@ textarea {
 	font-size: 100%;
 	padding-bottom: 10px;
 }
+
 /*--------------------------------------------------------Footer-------------*/
 footer {
 	clear: both;
@@ -269,6 +267,7 @@ footer {
 	padding-top: 25px;
 	margin: auto;
 }
+
 .footer-social ul {
 	list-style-type: none;
 }
@@ -283,6 +282,7 @@ footer {
 	color:  white;
 	font-size: 1rem;
 }
+
 /*--------------------------------------------------------Media Queries-------------*/
 /*------------------------------Min-Width:  320px----------*/
 @media (min-width: 325px) {
@@ -296,8 +296,8 @@ footer {
 		max-height: 295px;
 		max-width: 295px;
 	}
-
 }
+
 /*------------------------------Min-Width:  380px----------*/
 @media (min-width: 380px) {
 
@@ -367,30 +367,30 @@ footer {
 	.footer-social a {
 		font-size: 1.2rem;
 	}
+}
 
 /*------------------------------Min-Width:  710px----------*/
 @media (min-width: 710px) {
-
-/*----------------------Services*/
+	/*----------------------Services*/
 	#services-table {
 		border-spacing:100px 35px;
 	}
 
-/*----------------------Staff*/
+	/*----------------------Staff*/
     #grid-container {
         grid-template-columns: 50% 50%;
     }
 
-/*---------------------*Contact Us*/
- #forms-div {
-	float: left;
-	width: 50%;
-}
+	/*---------------------*Contact Us*/
+ 	#forms-div {
+		float: left;
+		width: 50%;
+	}
 
-#map-div {
-	float: right;
-	width: 50%;
-}
+	#map-div {
+		float: right;
+		width: 50%;
+	}
 
 /*----------------------Footer*/
     .footer-address {
@@ -399,6 +399,7 @@ footer {
 		margin-left: 15px;
 		text-align: left;
 	}
+}
 
 /*------------------------------Min-Width:  900px----------*/
 @media (min-width: 900px) {
@@ -434,3 +435,4 @@ footer {
         grid-column-gap: 0px;
         grid-row-gap: 10rem;
     }
+}
