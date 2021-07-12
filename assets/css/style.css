@@ -24,6 +24,8 @@ body {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-weight: bold;
+	background-color: #004099;
+	color:  white;
 }
 
 
@@ -98,6 +100,16 @@ header h2 {
 
 /*--------------------------------------------------------Services Section-------------*/
 
+#mission {
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	border-top: solid 8px #004099;
+	border-bottom: solid 8px #004099;
+	padding: 15px 0px;
+	background-color: #004099;
+	color:  white;
+}
 #our-services {
 	text-align: center;
 	font-size: 200%;
@@ -128,7 +140,6 @@ header h2 {
 	background-attachment: fixed;
 	clear: both;
 	width:  100%;
-	/*overflow-x: hidden;*/
 }
 
 #grid-container {
