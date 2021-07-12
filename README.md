@@ -72,7 +72,6 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Validator Testing 
 
 
-
 - HTML
   - __Home page__
     - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Frch79.github.io%2FMS1-Finance-Office%2Findex.html)
@@ -85,6 +84,15 @@ If this section grows too long, you may want to split it off into a separate fil
 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frch79.github.io%2FMS1-Finance-Office%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=)
+
+### Lighthouse Reports
+
+
+##![Home Page](https://github.com/rch79/MS1-Finance-Office/blob/master/assets/images/readme/lighthouse-main-page.PNG)
+
+##![Staff Page](https://github.com/rch79/MS1-Finance-Office/blob/master/assets/images/readme/lighthouse-staff-page.PNG)
+
+##![Contact Us Page](https://github.com/rch79/MS1-Finance-Office/blob/master/assets/images/readme/lighthouse-contact-us.PNG)
 
 ### Unfixed Bugs
 
@@ -103,26 +111,23 @@ The live link can be found here - https://rch79.github.io/MS1-Finance-Office/
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+###Content 
 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
-### Content 
-
-- The text used to describe the role of the Finance Office was based on the website of the MIT’s The Office of the Vice President for Finance (VPF)[MIT VPF Page](https://vpf.mit.edu/about-vpf)
-- Social media icons in the footer are provided by [Font Awesome](https://fontawesome.com/)
-- The grid code used in the Staff page was generated using the [Layoutit Grid tool](https://grid.layoutit.com/)
+- The text used to describe the role of the Finance Office was based on the website of the [MIT Office of the Vice President for Finance](https://vpf.mit.edu/about-vpf).
+- Social media icons in the footer are provided by [Font Awesome](https://fontawesome.com/).
+- The grid code used in the Staff page was generated using the [Layoutit Grid tool](https://grid.layoutit.com/).
 - This README file was created using the README template provided by the [Code Institute](https://codeinstitute.net/). The language used to describe the GitHub deployment process was copied verbatim from the template.
-- Fonts are provided by [Google Fonts](https://fonts.google.com/)
+- Fonts are provided by [Google Fonts](https://fonts.google.com/).
 
-### Media
+###Media
 
-- The hero image in the home page and the staff photos were downloaded from [Unsplash](https://unsplash.com)
-- The background tile pattern used in the Staff page was downloaded from [Toptal](https://www.toptal.com/designers/subtlepatterns/)
-- The Google Maps embed code was genereated using the [Maps.ie Google Maps iframe Generator](https://www.maps.ie/create-google-map/)
-- The reponsive site mockup was created using the [Multi Device Website Mockup Generator](https://techsini.com/multi-mockup/index.php)
+- The hero image in the home page and the staff photos were downloaded from [Unsplash](https://unsplash.com).
+- The background tile pattern used in the Staff page was downloaded from [Toptal](https://www.toptal.com/designers/subtlepatterns/).
+- The Google Maps embed code was genereated using the [Maps.ie Google Maps iframe Generator](https://www.maps.ie/create-google-map/).
+- The reponsive site mockup was created using the [Multi Device Website Mockup Generator](https://techsini.com/multi-mockup/index.php).
 
-### Acknowledgments
+
+## Acknowledgements
 
 - A huge thank you to my mentor Spence Barriball, who has provided me with invaluable guidance throughout this process.
-- Thank you to the Code Institute team for the enjoyable lessons and  excellent reference materials
+- Thank you to the Code Institute team for the enjoyable lessons and  excellent reference materials.
