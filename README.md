@@ -12,27 +12,27 @@ The Urban University Finance Office is provides support to the (fictitious) Urba
   - Featured at the top of all pages, includes links to the logo (home page), home, staff and contact pages
   - The navigation bar enables site users to visit all pages within the site without having to use the back button in their broser.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](https://github.com/rch79/MS1-Finance-Office/blob/master/assets/images/readme/navigation-bar.PNG)
 
 - __The landing page image__
 
   - The landing includes a photograph of the building in which the Finance Office is located to provide potential walk-in customers with a visual reference of the office's location
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](https://github.com/rch79/MS1-Finance-Office/blob/master/assets/images/hero-image-index.jpg)
 
 - __Our Services Section__
 
   - It states the role of the Finance Office within the University's organization to give site visitors a broad idea of the functions performed by the office staff
   - It lists the services offered by the Finance Office
 
-![Our Services](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Our Services](https://github.com/rch79/MS1-Finance-Office/blob/master/assets/images/readme/our-services.PNG)
 
 - __The Footer__ 
 
   - Featured at the bottom of each pages, it provides the users with the office’s main address, and external links to the Finance Office’s social media sites (Linkedin, Facebook, and Twitter)
   - Users who wish to contact the Finance Office on one of these external sites can do so by clicking on the links provided
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](https://github.com/rch79/MS1-Finance-Office/blob/master/assets/images/readme/Footer.PNG)
 
 - __The Staff page__
 
@@ -40,7 +40,7 @@ The Urban University Finance Office is provides support to the (fictitious) Urba
   - Includes photos of each staff member to serve as a visual cue for walk in customers.
  
 
-![Staff](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Staff](https://github.com/rch79/MS1-Finance-Office/blob/master/assets/images/readme/staff-page.png)
 
 
 - __The Contact Us page__
@@ -49,13 +49,7 @@ The Urban University Finance Office is provides support to the (fictitious) Urba
   - The map (directions) section notifies site users that walk ins are welcome, and provides users with direftions to the Finance Office. A Google maps iframe is embedded for added convenience.
 
 
-![Contact Us](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
-
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Contact Us](https://github.com/rch79/MS1-Finance-Office/blob/master/assets/images/readme/contact-us.png)
 
 
 ### Features Left to Implement
