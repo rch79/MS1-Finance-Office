@@ -2,7 +2,7 @@
 
 The Urban University Finance Office is provides support to the (fictitious) Urban University Dublin staff and students who are required to perform one of the many financial tasks that are part of the daily affairs of the institution. Individuals who require guidance on one or more of the many financial policies or financial processess can use the site for contact information, submit inquiries or find directions to the building if they prefer to do so in person. 
 
-![Responsive Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup](https://github.com/rch79/MS1-Finance-Office/blob/master/assets/images/readme/responsive-site-mockup.PNG)
 
 
 ### Existing Features
