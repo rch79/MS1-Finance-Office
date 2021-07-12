@@ -2,7 +2,7 @@
 
 The Urban University Finance Office is provides support to the (fictitious) Urban University Dublin staff and students who are required to perform one of the many financial tasks that are part of the daily affairs of the institution. Individuals who require guidance on one or more of the many financial policies or financial processess can use the site for contact information, submit inquiries or find directions to the building if they prefer to do so in person. 
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
 
 ### Existing Features
@@ -25,7 +25,7 @@ The Urban University Finance Office is provides support to the (fictitious) Urba
   - It states the role of the Finance Office within the University's organization to give site visitors a broad idea of the functions performed by the office staff
   - It lists the services offered by the Finance Office
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Our Services](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
 - __The Footer__ 
 
@@ -40,7 +40,7 @@ The Urban University Finance Office is provides support to the (fictitious) Urba
   - Includes photos of each staff member to serve as a visual cue for walk in customers.
  
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Staff](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
 
 - __The Contact Us page__
@@ -49,7 +49,7 @@ The Urban University Finance Office is provides support to the (fictitious) Urba
   - The map (directions) section notifies site users that walk ins are welcome, and provides users with direftions to the Finance Office. A Google maps iframe is embedded for added convenience.
 
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Contact Us](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 
 - __The Sign Up Page__
 
@@ -57,9 +57,6 @@ The Urban University Finance Office is provides support to the (fictitious) Urba
 
 ![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 
@@ -118,9 +115,9 @@ You can break the credits section up into Content and Media, depending on what y
 - The hero image in the home page and the staff photos were downloaded from Unsplash [Unsplash](https://unsplash.com)
 - The background tile pattern used in the Staff page was downloaded from Toptal [Toptal](https://www.toptal.com/designers/subtlepatterns/)
 - The Googla Maps embed code was genereated using the Maps.ie Google Maps iframe Generator [Maps.ie](https://www.maps.ie/create-google-map/)
-
+- The reponsive site mockup was created using the Multi Device Website Mockup Generator [MDWMG](https://techsini.com/multi-mockup/index.php)
 
 ### Acknowledgments
 
 - A huge thank you to my mentor Spence Barriball, who has provided me with invaluable guidance throughout this process.
-- Thank you to the Code Institute team for the enjoyable lessons and excellent reference materials
+- Thank you to the Code Institute team for the enjoyable lessons and  excellent reference materials
