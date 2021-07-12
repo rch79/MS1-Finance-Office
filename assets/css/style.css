@@ -180,13 +180,13 @@ header h2 {
 }
 
 #forms-div {
-	float: left;
-	width: 50%;
+	width: 90%;
+	margin: auto;
 }
 
 #map-div {
-	float: right;
-	width: 50%;
+	width: 90%;
+	margin: auto;
 }
 
 #contact-us h3 {
@@ -366,6 +366,9 @@ footer {
 		font-size: 1.2rem;
 	}
 
+/*------------------------------Min-Width:  600px----------*/
+
+}
 /*------------------------------Min-Width:  710px----------*/
 @media (min-width: 710px) {
 
@@ -379,6 +382,17 @@ footer {
     #grid-container {
         grid-template-columns: 50% 50%;
     }
+
+/*---------------------*Contact Us*/
+ #forms-div {
+	float: left;
+	width: 50%;
+}
+
+#map-div {
+	float: right;
+	width: 50%;
+}
 
 /*----------------------Footer*/
     .footer-address {
