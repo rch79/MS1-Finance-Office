@@ -12,13 +12,14 @@ body {
 	color: #004099;
 }
 
+/*--------------------------------------------------------Shared Styling-------------*/
 .banner {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	width: 100%;
 	text-align: center;
 	font-size: 200%;
-	margin: 20px 0;
+	margin: 0;
 	text-transform: uppercase;
 	letter-spacing: 4px;
 	font-weight: bold;
@@ -26,7 +27,16 @@ body {
 	color:  white;
 }
 
+#staff-main-section, #contact-us-main-section {
+	background: url("../images/staff-background.png") repeat center center;
+	background-attachment: fixed;
+	clear: both;
+/*	width:  100%*/;
+
+}
+
 /*--------------------------------------------------------Header-------------*/
+
 #logo {
 	background: url("../images/logo.png") no-repeat center center;
 	height: 75px;
@@ -67,7 +77,7 @@ header h2 {
 
 #inner-menu-wrapper {
 	margin: 0 auto;
-	width: 60%;
+	width: 100%;
 }
 
 #menu li {
@@ -109,6 +119,7 @@ header h2 {
 	padding: 15px 0px;
 	background-color: #004099;
 	color:  white;
+	font-size: 125%;
 }
 
 #our-services {
@@ -135,13 +146,6 @@ header h2 {
 }
 
 /*--------------------------------------------------------Staff Page-------------*/
-#main-section {
-	background: url("../images/staff-background.png") repeat center center;
-	background-attachment: fixed;
-	clear: both;
-	width:  100%;
-}
-
 #grid-container {
 	margin:  auto;
 	padding-top: 4rem;
@@ -184,8 +188,19 @@ header h2 {
 }
 
 /*--------------------------------------------------------Contact Us-------------*/
-#contact-us {
+#contact-us-main-section {
 	clear: both;
+}
+
+#contact-us-main-section h3 {
+	text-align: center;
+	text-transform: uppercase;
+	padding: 15px 0;
+}
+
+#forms-div, #map-div {
+	background: inherit;
+	height: 53rem;
 }
 
 #forms-div {
@@ -198,18 +213,21 @@ header h2 {
 	margin: auto;
 }
 
-#contact-us h3 {
+#contact-us-main-section h3 {
 	font-size: 100%;
 	padding-bottom: 10px;
 }
 
-#contact-us h3, #contact-us form {
-	margin-left: 15px;
+#contact-us-main-section h3, #contact-us-main-section form {
+	margin: auto;
 	width: 90%;
 }
 
-#contact-us form {
+#additional-information-wrapper, #contact-us-main-section form, iframe {
 	border: 4px solid #427a9d;
+}
+
+#contact-us-main-section form {
 	padding:  10px 10px;
 	margin-bottom: 25px;
 }
@@ -226,7 +244,7 @@ form input {
 form input, textarea {
 	border: 2px solid #427a9d;;
 	margin-bottom: 20px;
-	width: 60%;
+	width: 80%;
 }
 
 textarea {
@@ -238,26 +256,35 @@ textarea {
 	text-align: center;
 	width: 80%;
 	margin: auto;
-	padding-bottom: 5rem;
-	padding-top: 2rem;
+	margin-bottom: 5rem;
+	padding: 1rem 0;
+	background-color: white;;
 }
 
 #additional-information {
 	display: inline-block;
 }
+
 #additional-information p {
 	text-align: left;
 	padding: 4px;
+	font-weight: bold;
 }
 
 #map {
 	width: 85%;
 	margin: auto;
+	height: auto;
+	clear: bottom;
+}
+
+iframe {
+	height: 15rem;
+	width: 100%;
 }
 
 #map h3 {
 	font-size: 100%;
-	padding-bottom: 10px;
 }
 
 /*--------------------------------------------------------Footer-------------*/
@@ -336,6 +363,11 @@ footer {
 		max-width: 320px;
 	}
 
+    /*--------Contact Us*/
+	iframe {
+		height: 20rem;
+	}
+
 	/*Footer*/
 	.footer-social {
 		text-align: right;
@@ -402,17 +434,11 @@ footer {
         grid-template-columns: 50% 50%;
     }
 
-	/*--------Contact Us*/
- 	#forms-div {
-		float: left;
-		width: 50%;
+    /*--------Contact Us*/
+	iframe {
+		height: 25rem;
 	}
-
-	#map-div {
-		float: right;
-		width: 50%;
-	}
-
+	
 /*----------------Footer*/
     .footer-address {
 		font-size: 0.85rem;
@@ -456,4 +482,18 @@ footer {
         grid-column-gap: 0px;
         grid-row-gap: 10rem;
     }
+}
+
+/*------------------------------Min-Width:  960px----------*/
+@media (min-width: 960px) {
+	/*--------Contact Us*/
+ 	#forms-div {
+		float: left;
+		width: 50%;
+	}
+
+	#map-div {
+		float: right;
+		width: 50%;
+	}
 }
