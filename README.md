@@ -134,7 +134,7 @@ The live link can be found here - https://rch79.github.io/MS1-Finance-Office/
 
 ## Credits 
 
-###Content 
+### Content 
 
 - The text used to describe the role of the Finance Office was based on the website of the [MIT Office of the Vice President for Finance](https://vpf.mit.edu/about-vpf).
 - Social media icons in the footer are provided by [Font Awesome](https://fontawesome.com/).
@@ -142,7 +142,7 @@ The live link can be found here - https://rch79.github.io/MS1-Finance-Office/
 - This README file was created using the README template provided by the [Code Institute](https://codeinstitute.net/). The language used to describe the GitHub deployment process was copied verbatim from the template.
 - Fonts are provided by [Google Fonts](https://fonts.google.com/).
 
-###Media
+### Media
 
 - The hero image in the home page and the staff photos were downloaded from [Unsplash](https://unsplash.com).
 - The background tile pattern used in the Staff page was downloaded from [Toptal](https://www.toptal.com/designers/subtlepatterns/).
