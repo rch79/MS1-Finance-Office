@@ -20,7 +20,7 @@ body {
 	font-size: 200%;
 	margin: 20px 0;
 	text-transform: uppercase;
-	letter-spacing: 2px;
+	letter-spacing: 4px;
 	font-weight: bold;
 	background-color: #004099;
 	color:  white;
@@ -40,7 +40,6 @@ body {
 	font-size: 1.2rem;
 	margin-left: 2px;
 	font-weight: 600;
-
 }
 
 #university-name a {
@@ -56,14 +55,11 @@ header h2 {
 	font-size: 0.8rem;
 }
 
-
 #menu {
 	list-style-type: none;
 	letter-spacing: 2px;
 	margin-right: 4px;
 }
-
-
 
 #outer-menu-wrapper {
 	width: 100%;
@@ -156,8 +152,7 @@ header h2 {
 	grid-template-rows:  auto;
 	grid-column-gap: .4rem;
 	grid-row-gap: 6rem;
-	clear: both;
-	
+	clear: both;	
 }
 
 .container-item {
@@ -167,7 +162,6 @@ header h2 {
 }
 
 .container-item img {
-
 	max-height: 250px;
 	max-width: 250px;
 	object-fit: cover;
@@ -238,6 +232,22 @@ form input, textarea {
 textarea {
 	height: 20rem;
 	width: 99%;
+}
+
+#additional-information-wrapper {
+	text-align: center;
+	width: 80%;
+	margin: auto;
+	padding-bottom: 5rem;
+	padding-top: 2rem;
+}
+
+#additional-information {
+	display: inline-block;
+}
+#additional-information p {
+	text-align: left;
+	padding: 4px;
 }
 
 #map {
@@ -382,17 +392,17 @@ footer {
 
 /*------------------------------Min-Width:  710px----------*/
 @media (min-width: 710px) {
-	/*----------------------Services*/
+	/*----------Services*/
 	#services-table {
 		border-spacing:100px 35px;
 	}
 
-	/*----------------------Staff*/
+	/*-------------Staff*/
     #grid-container {
         grid-template-columns: 50% 50%;
     }
 
-	/*---------------------*Contact Us*/
+	/*--------Contact Us*/
  	#forms-div {
 		float: left;
 		width: 50%;
@@ -403,7 +413,7 @@ footer {
 		width: 50%;
 	}
 
-/*----------------------Footer*/
+/*----------------Footer*/
     .footer-address {
 		font-size: 0.85rem;
 		padding-top:  20px;
